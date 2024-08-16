@@ -1,0 +1,57 @@
+#topbar1 {
+    flex: auto;
+    flex-direction: column;
+    background: rgb(160, 51, 94);
+    color: azure;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#topbar2 {
+    flex: auto;
+    background: rgb(250, 245, 239);
+    height: 50px;
+}
+
+.panel p {
+    flex: auto;
+    display: inline;
+    align-items: left;
+    margin-left: 20px;
+}
+
+.panel2 p {
+    flex: auto;
+    display: inline;
+    align-items: left;
+    margin-left: 20px;
+}
+
+.panel2-button:hover {
+    border: 2px solid #4e0f25;
+    flex: auto;
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgb(160, 51, 94);
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("axislogo.jpeg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
