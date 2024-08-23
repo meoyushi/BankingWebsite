@@ -1,19 +1,32 @@
+/*font family ig
+* {
+    font-family: Tahoma, Arial, sans-serif;
+} */
+
+
+/*topbar*/
+
 #topbar1 {
     flex: auto;
     flex-direction: column;
     background: rgb(160, 51, 94);
     color: azure;
-    height: 50px;
+    height: 100px;
     padding-top: 10px;
     padding-left: 10px;
-    align-items: center;
+    align-items: left;
     justify-content: space-evenly;
+    display: flex;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
 }
 
 #topbar2 {
     flex: auto;
     background: rgb(250, 245, 239);
     height: 50px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .panel p {
@@ -28,11 +41,19 @@
     display: inline;
     align-items: left;
     margin-left: 20px;
+    margin-top: 20px;
+}
+
+.panel-button:hover {
+    flex: auto;
+    background-color: #f3f3f3;
+    color: rgb(160, 51, 94);
 }
 
 .panel2-button:hover {
-    border: 2px solid #4e0f25;
     flex: auto;
+    background-color: rgb(160, 51, 94);
+    color: #f3f3f3;
 }
 
 .navbar {
@@ -49,9 +70,126 @@
     width: 100px;
 }
 
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 2px solid #bf7790;
+}
+
 .logo {
     background-image: url("axislogo.jpeg");
     background-size: cover;
     height: 50px;
     width: 100px;
+}
+
+
+/*search*/
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 120px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    background-color: rgb(250, 245, 239);
+    font-size: 1rem;
+    border: rgb(160, 51, 94);
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(160, 51, 94);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: azure;
+    background-image: url("icono_size.png");
+}
+
+
+/*ads*/
+
+.ad-section {
+    background-image: url("45549853-family.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 624px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ad-msg {
+    background-color: transparent;
+    color: rgb(160, 51, 94);
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 96%;
+    margin-bottom: 25px;
+}
+
+.ad-msg a {
+    text-decoration: none;
+    color: rgb(160, 51, 94);
+}
+
+.news {
+    border: 1px solid #12232E;
+    color: rgb(160, 51, 94);
+    width: 40%;
+}
+
+ul li {
+    line-height: 30px;
+    color: #f3f3f3;
+    background-color: rgb(160, 51, 94);
+    font-size: 22px;
+}
+
+.flexy {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+hr {
+    height: 2px;
+    color: rgb(160, 51, 94);
+}
+
+h1 {
+    color: rgb(160, 51, 94);
+}
+
+#optNimgTable {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#imgy {
+    width: 200px;
+    height: 200px;
+}
+
+#info {
+    background-color: rgb(160, 51, 94);
+    color: #f3f3f3;
 }
