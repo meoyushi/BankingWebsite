@@ -1,0 +1,5 @@
+sarita,2993,5000
+suman kaushal,5678,3000
+amit pal,6789,4000
+shubham darr,6543,20000
+ramnagar choubey,8765,1000
