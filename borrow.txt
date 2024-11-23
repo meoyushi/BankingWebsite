@@ -1,0 +1,3 @@
+troy pal,6789,4000
+ravi roy,6543,2000
+ramnagar choubey,8765,10000
